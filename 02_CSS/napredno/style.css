@@ -1,0 +1,92 @@
+/* vise elemenata */
+h3, h4{
+    color: orange;
+}
+/* pristupanje klasi */
+.desno_poravnanje {
+    text-align: right;
+}
+.crveni_tekst {
+    color: red;
+}
+.drugi, #treci {
+    background-color: yellow;
+}
+/* pristupanje id-u */
+#treci {
+    font-style: italic;
+    border: solid red;
+    border-bottom: double 5px; color:blue;
+    border-radius: 70%;
+}
+
+/* prioritet selektora */
+
+li {
+    color: limegreen;
+    color: blueviolet;
+}
+.stavka {
+    color: blue;
+}
+#prva_stavka {
+    color: orange;
+}
+#cetvrta_stavka {
+    color: brown !important;
+}
+#peta_stavka {
+    color: bisque !important;
+}
+
+p {
+    color:grey
+}
+
+/*Kombinator razmak - svi potomci u div tagu,koji su u p tagu*/
+div p {
+    color:aquamarine
+}
+/* ovo su direktni potomci diva-deca njegova paragrafi (p) */
+div>p {
+    border: 1px solid green;
+}
+
+/* Stilizacija linka */
+
+a {
+    color:lime;
+    text-decoration: none;
+}
+
+/* stranice koje smo posetili bice braon boje */
+a:visited {
+    color: brown;
+}
+
+/* kada predjem misem preko linka, bice zuto; nece da radi na telefonu */
+a:hover {
+    background-color: yellow;
+}
+
+/* Pseudo selektori-Svaki prvi potomak koji je tip p*/
+
+p:first-child {
+    font-weight: bold;
+}
+
+/* svaki treci li */
+li:nth-child(3n) {
+    font-weight: bold;
+}
+
+/*samo treci li */
+li:nth-child(3) {
+    text-decoration: line-through;
+}
+
+li:hover {
+    background-color: blue;
+}
+
+
