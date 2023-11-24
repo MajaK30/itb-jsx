@@ -1,0 +1,41 @@
+a {
+    /*
+    border-style: solid;
+    border-width: 3px;
+    border-color: red;
+    border-radius: 6px;
+    border-color: purple;
+    */
+    border: 3px solid red;
+    border-radius: 6px;
+    /*
+    margin-left: 10px;
+    margin-top: 5pt;
+    */
+    margin: 5pt 0 0 10px;
+    padding: 15px 23px;
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+}
+
+p {
+    background-color: blue;
+    border: 4px solid black;
+    width: 200px;
+    height: 300px;
+}
+
+/* 
+BLOCK element (zauzima citavu sirinu ekrana)
+p, div, h1,...,h6,table,...
+
+INLINE elementi (zauzima onoliko koliko je potrebno da bi se prikazao kontent) samo neophodne dimenzije, visinu, sirinu
+a, span, td,..
+
+ovo svojstvo moze da se menja, preko display svojstva:
+display:block; (ovim elementima mozete da podesavate width i height; redjaju se jedan ispod drugog)
+display:inline (ovim elementima ne mozete da menjate width i height; redjaju se jedan pored drugog)
+
+display:inline-block (inline elementi kojima mozete da namestite visinu i sirinu)
+*/
